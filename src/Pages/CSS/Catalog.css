@@ -1,0 +1,76 @@
+.catalog{
+    display: flex;
+    justify-content: space-between;
+}
+.catalog img{
+    width: 250px;
+}
+
+.catalog-left{
+    
+        margin-top: 30px;
+        align-content:flex-start;
+        margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        
+}
+.item{
+    border: 1.5px solid #A18A68;
+  border-radius: 10px;
+  /* padding: 15px; */
+  /* width: 30%; */
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.catalog-right{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#search_section{
+    margin-right: 20px;
+    width: 200px;
+ top: 92.18px;
+ left: 100px;
+ border: 1px;
+ border: none; /* Видаляємо стандартну границю */
+ border-bottom: 1px solid #D8D8D8; /* Додаємо власну лінію підкреслення і задаємо колір */
+ outline: none; 
+ display: flex;
+  }
+.search_button{
+
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    border: 1.5px solid #BB3939;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+     #type {
+        width: 200px; 
+        height: 40px; 
+        border: 1px solid #D8D8D8;
+        border-radius: 5px;
+        margin-top: 32px;
+      }
